@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"  content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Joshua Mayhugh</title>  
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+<!------header-->
+<div id="header">
+    <div class="container">
+
+
+        <nav>
+            
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <img src="images/logo.png" class="logo">
+        </nav>
+        <div class="header-text">
+            <p>Texas A&M Computer Science</p>
+            <h1>Joshua Mayhugh</h1>
+            
+        </div>
+        
+    
+    </div>
+</div>  
+
+
+<!------about-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class = "about-col-1">
+                <img src="images/rainbow.jpg">
+
+            </div>
+            <div class = "about-col-2">
+                <h1 class = "sub-title">About Me</h1>
+                <p>My name is Joshua Mayhugh and I am a Computer Science major at Texas A&M University. I am currently a junior and I am looking for an internship for the summer of 2022. I am interested in software development and I am currently learning web development. I am also interested in cybersecurity and I am currently learning about that as well. I am a hard worker and I am always looking to learn new things.</p>
+            
+                <div class="tab-titles">
+                    <p class = "tab-links active-link" onclick ="opentab('skills')">Skills</p>
+                    <p class = "tab-links"  onclick ="opentab('experience')">Experience</p>
+                    <p class = "tab-links"  onclick ="opentab('education')">Education</p>
+
+                </div>
+                <div class="tab-contents active-tab" id = "skills">
+                    <ul>
+                        <li><span>AWS Cloud Systems</span><br>Managing and scipting EC2 instances for hundreds of customes. Writing scripts in python and powershell that automated tasks, modified the memory and storage of VMs, and resolving technical issues</li>
+                        <li><span>UI/UX</span><br>Using HTML, CSS, and Javascript to create interactive modern webpages</li>
+                        <li><span>Languages</span><br>Professional experience with Python, Powershell, AWS Lambda, project experience with AI, C++, JAVA, HTML, CSS, Javascript</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id = "experience">
+                    <ul>
+                        <li><span>Internship at Diamond Data Systems May 2023 - Aug 2023</span>
+                            <br>Wrote scripts in Python and Powershell to automate tasks, modify virtual machine instances, and extract relevant information.
+                            Collaborated with team members to optimize AWS infrastructure and streamline workflows.
+                            Resolved technical issues and provided troubleshooting support for AWS-related problems.
+                            Participated in team meetings and contributed to discussions on system improvements and enhancements.
+                            Created robust and reusable documentation for multiple cloud-related projects.
+                            </li>
+                        <li><span>Technical Lead for ICODE May 2022 - Aug 2022</span><br>Instructed Python, Java, Construct, and Raspberry Pi classes, guiding students in building computer science portfolios.
+                            Emphasized teamwork, project management, time management, collaboration, and high-level thinking during the teaching process.
+                            </li>
+                        <li><span>Tutor for Grade Potential Tutoring May 2022</span><br>Tutor for High school Computer Science, Chemistry, Intro to College Chemistry,  Pre-Algebra through Calculus II, High School Physics, Intro to College Physics, SAT Math, and Reading.
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id = "education">
+                    <ul>
+                        <li><span>Texas A&M University</span><br>4.0 GPA, B.S Computer Science, Engineering Honors Student</li>
+                        <li><span>Plano East Senior High</span><br>International Bacculareate Graduate, Summa Cum Laude</li>
+                        
+                    </ul>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+</div>
+<!--------services-->
+<div id="services">
+    <div class="container">
+        <h1 class = "sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+
+                <h2>Web Design</h2>
+                <p>Designing web/app interfaces</p>
+                <a href="#">learn more</a>
+
+            </div>
+            <div>
+                
+                <h2>UI/UX Design</h2>
+                <p>Designing web/app interfaces</p>
+                <a href="#">learn more</a>
+
+            </div>
+            <div>
+                
+                <h2>Web Design</h2>
+                <p>Designing web/app interfaces</p>
+                <a href="#">learn more</a>
+
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!--portfolio-->
+
+<div id = "portfolio">
+    <div class="container">
+     <h1 class ="sub-title">My Work</h1>
+     <div class="work-list">
+            <div class="work">
+                <img src="images/rainbow.jpg">
+                <div class="layer">
+                    <h3>Ai Emotional Chatbot</h3>
+                    <p>implemented the OpenAi API in order to create a friendly chatbot that both recognizes and displays emotions while remembering conversations</p>
+                    <a href="#"><i class = "fas fa-external-link-alt"></i>learn more</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/rainbow.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Description of the app</p>
+                    <a href="#"><i class = "fas fa-external-link-alt"></i>learn more</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/rainbow.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Description of the app</p>
+                    <a href="#"><i class = "fas fa-external-link-alt"></i>learn more</a>
+                </div>
+            </div>
+     </div>
+     <a href="#" class = "btn">See More</a>
+    </div>
+</div>
+<!--contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class = "sub-title">Contact Me</h1>
+                <p>jmayhugh@tamu.edu</p>
+                <p>214-537-3468</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/joshua-mayhugh-36a764210/">Linked-in</a>
+
+                </div>
+                <a href="images/Copy of Joshua Mayhugh Resume.docx (3).pdf" download class = "btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name = "submit-to-google-sheet">
+                    <input type="text" name = "Name" placeholder = "Your Name" required>
+                    <input type="email" name = "Email" placeholder = "Your Email" required>
+                    <textarea name="Message" placeholder = "Your Message" required></textarea>
+                    <button type="submit" class = "btn btn2">Send</button>
+                </form>
+                <span id = "msg"> </span>
+            </div>
+        </div>
+    </div>
+<div class="copyright">
+    <div class="container">
+        <p>&copy; 2021 Joshua Mayhugh</p>
+</div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw_4tkx4CD-5qWepogt3Q-gcI50mOU2M2jJCtlkU13tZWYBeMUPzqZoqj-SXwtwFWT9/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "Message Sent!"
+            setTimeout(function(){msg.innerHTML = ""}, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
